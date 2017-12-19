@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    background-color: #eee;
+    border: 1px solid #999;
+    margin: 20px;
+}
+
+.container > div {
+    background-color: #FFF;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.left {
+    width: 200px;
+}
+
+.main {
+    margin: 0 20px;
+    width: calc(100% - 200px - 120px - 40px);
+}
+
+.right {
+    width: 120px;
+}
+
+div {
+    padding: 20px;
+}
+
+span {
+    vertical-align: top;
+}
+
+a img {
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+}
+
+a:nth-child(1) img {
+    margin-top: 0px;
+}
